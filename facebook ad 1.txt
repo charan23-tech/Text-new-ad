@@ -1,0 +1,32 @@
+Steps to Add URL Parameters:
+Create Your Campaign:
+
+Go to Facebook Ads Manager.
+Click on Create to start a new campaign.
+Choose Traffic as your campaign objective.
+Ad Set Level:
+
+Set up your ad set targeting, budget, and schedule.
+In the Traffic section, enter the destination URL (the website link you want to drive traffic to). This is where people will land when they click on your ad.
+Ad Level:
+
+After defining the ad set, move to the Ad level.
+Here, you'll create your ad's content (image, video, text, etc.).
+Under the Ad Preview section, you'll find the Website URL field, where you entered the URL you want to direct people to.
+Adding URL Parameters:
+
+In the Ad Setup section, scroll down and you should see a field labeled Tracking or URL Parameters.
+Click on the URL Parameters field.
+This is where you can add your parameters. For example:
+makefile
+Copy code
+utm_source=facebook&utm_medium=cpc&utm_campaign=mental_health_ad&utm_content=image1
+Your final URL will look like:
+
+arduino
+Copy code
+https://www.yoursite.com/mental-health?utm_source=facebook&utm_medium=cpc&utm_campaign=mental_health_ad&utm_content=image1
+Complete Your Ad:
+
+Once you have your URL with parameters in place, continue to set up your ad's creative (image, copy, etc.).
+Review your settings and click Publish.
